@@ -1,38 +1,42 @@
 [
     {
         "id": 1,
-        "link": "https://codepen.io/zakuit/pen/OKQGKg",
-        "img": "https://i.ibb.co/zhkm5ry/tribute-page.png",
-        "name": "Jules Tribute Page",
+        "codepen": "",
+        "img": "https://i.ibb.co/8YyNRJz/gec.png",
+        "name": "GEC",
         "github": "",
-        "site": "",
-        "entreprise": "Jules"
+        "site": "https://3.14.255.166/fr/",
+        "entreprise": "Dn Technology",
+        "comments": "Gec is a paper mail (incoming and outgoing) management tool. It allows the transmission, annotation, assignment and archiving of paper mail"
     },
     {
         "id": 2,
-        "link": "https://codepen.io/zakuit/pen/aeVgVj",
-        "img": "https://i.ibb.co/6ZNRWnq/technical-document.png",
-        "name": "Technical Documentation Page",
+        "codepen": "",
+        "img": "https://i.ibb.co/QNQFgnm/hat.png",
+        "name": "Sense Hat Mobile",
         "github": "",
         "site": "",
-        "entreprise": "Jules Thea"
+        "entreprise": "eHealth Africa",
+        "comments": "Sense Hat Mobile a population data collection software to support a health intervention at eradi-cating Human African trypanosomiasis (HAT) in Congo"
     },
     {
         "id": 3,
-        "link": "https://codepen.io/zakuit/pen/mjJLKV",
-        "img": "https://i.ibb.co/DwFVcWJ/survey-form.png",
-        "name": "Employer Questionnaire",
-        "github": "",
-        "site": "",
-        "entreprise": "Thea"
+        "codepen": "",
+        "img": "https://i.ibb.co/grLNfYf/website.png",
+        "name": "Portfolio",
+        "github": "https://github.com/Zakui/portfolio",
+        "site": "https://julesthea.com",
+        "entreprise": "Personnel",
+        "comments": "This site is my personal portfolio page that is under construction"
     },
     {
         "id": 4,
-        "link": "https://codepen.io/zakuit/pen/KBdzEE",
+        "codepen": "https://codepen.io/zakuit/pen/KBdzEE",
         "img": "https://i.ibb.co/5MYsyz8/product-landing-page.png",
         "name": "Product landing Page",
         "github": "",
         "site": "",
-        "entreprise": "Zakoui"
+        "entreprise": "Free Code Camp",
+        "comments": "Product landing Page is a project of the Responsive Web Design course of Free Code camp that I realized by refering me to <a class='lien-we' href='https://www.we.org/'>WE</a> official website"
     }
 ]

@@ -24,10 +24,11 @@ const Layout = ({ children }) => {
           node {
             img
             name
-            link
+            codepen
             github
             site
             entreprise
+            comments
           }
         }
       }

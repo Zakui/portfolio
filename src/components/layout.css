@@ -253,6 +253,13 @@ footer {
   text-align: center;
 }
 
+.lien-we {
+  color: #08081b;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 970px) {
   .logos-flex-item {
     width: 120px;
