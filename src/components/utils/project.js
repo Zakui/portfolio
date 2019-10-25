@@ -1,14 +1,19 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { FaGithub, FaGlobeAfrica, FaCodepen } from 'react-icons/fa';
+import { polyfillDOMImplementation } from 'interweave-ssr';
+import Interweave from 'interweave';
+
 import Tooltip from './tooltip'
+
+polyfillDOMImplementation();
 
 const Project = ({d}) => (
     <>
         <div className="project-box">
             <h2 className="project-title">{d.name}</h2>
             <img src={d.img} alt={d.name} className="work-img" />
-            <div className="details-text">{d.comments}</div>
+            <div className="details-text"><Interweave content={d.comments} /></div>
             <div className="p-links">
                 {
                     d.github !== '' &&
