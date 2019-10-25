@@ -6,7 +6,7 @@ const Header = () => (
     <nav>
       <ul>
         <Item section="welcome-section">About</Item>
-        <Item section="projects-container">Works</Item>
+        <Item section="projects-container">Work</Item>
         <Item section="contact">Contact</Item>
       </ul>
     </nav>
