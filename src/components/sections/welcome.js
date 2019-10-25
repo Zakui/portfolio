@@ -2,41 +2,16 @@ import PropTypes from "prop-types"
 import React from "react"
 import TextLoop from "react-text-loop"
 import { Section } from "react-scroll-section";
-import styled from "styled-components";
-import Lien from '../utils/lien'
-
-const LoopText = styled.span`
-    font-size: 3rem;
-    font-weight: bold;
-    color: #2097ff;
-    margin: 0 15px;
-
-    @media (max-width: 839px) {
-        margin: 0;
-        padding: 0;
-    }
-    @media (max-width: 375px) {
-        font-size: 2rem;
-    }
-`
-
-const JLetter = styled.span`
-    font-size: 3rem;
-    text-shadow: 3px 0 0 #def;
-
-    @media (max-width: 375px) {
-        font-size: 2rem;
-    }
-`
+import Lien from '../utils/lien';
 
 const Welcome = ({title}) => (
     <Section id="welcome-section">
         <div className="me">
-            <h1>Hello, I'm <JLetter>{title}</JLetter></h1>
+            <h1>Hello, I'm <span className="j-letter">{title}</span></h1>
             <div>a 
                 <TextLoop springConfig={{ stiffness: 50, interval: 9000, damping: 20 }}>
-                    <LoopText> Developer </LoopText>
-                    <LoopText> Designer </LoopText>
+                    <span className="loop-text"> Developer </span>
+                    <span className="loop-text"> Designer </span>
                 </TextLoop>
              from Guinea</div>
 
