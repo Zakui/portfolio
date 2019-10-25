@@ -315,6 +315,7 @@ footer {
 /* Media query */
 @media (max-width: 839px) {
   #welcome-section {
+    padding-top: 20px;
     grid-template-columns: 1fr;
   }
   .contact-me {
