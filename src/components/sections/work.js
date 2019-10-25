@@ -33,7 +33,7 @@ const Work = ({data}) => {
                         <li className="logos-flex-item" key={img_elem.originalName}>
                             <Tooltip text={`${img_elem.node.fluid.originalName.split('.')[0]}`}>
                                 <span>
-                                    <Img fluid={img_elem.node.fluid} />
+                                    <Img fluid={img_elem.node.fluid} alt={`${img_elem.node.fluid.originalName.split('.')[0]}`}/>
                                 </span>
                             </Tooltip>
                         </li>
