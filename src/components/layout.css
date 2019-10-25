@@ -30,6 +30,42 @@ h1, h2 {
   margin: 30px 0;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background: #def;
+  display: flex;
+  padding: 5px 0;
+  left: 0;
+  z-index: 1;
+  justify-content: flex-end;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  margin: auto 20px;
+  justify-content: space-between;
+  width: 300px;
+  min-width: 300px;
+}
+
+.text-title {
+  text-align: center;
+}
+
+.dn-link {
+  color: #08081b;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #welcome-section {
   height: 100vh;
   background-color: #08081b;
@@ -37,6 +73,18 @@ h1, h2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   overflow: scroll;
+}
+
+.j-letter {
+  font-size: 3rem;
+  text-shadow: 3px 0 0 #def;
+}
+
+.loop-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2097ff;
+  margin: 0 15px;
 }
 
 .me {
@@ -243,22 +291,23 @@ footer {
   width: 50%;
   margin: 10px auto 20px;
   justify-content: space-around;
-
+  flex-wrap: wrap;
 }
 
 .logos-flex-item {
   width: 70px;
   height: 70px;
-  margin-top: 10px;
+  margin: 10px;
   text-align: center;
 }
 
 @media screen and (max-width: 970px) {
   .logos-flex-item {
-    width: 120px;
-    height: 80px;
-    margin-top: 10px;
-    text-align: center;
+    width: 60px;
+    height: 60px;
+  }
+  .logos-flex-container {
+    width: 70%;
   }
 }
 
@@ -266,10 +315,18 @@ footer {
 /* Media query */
 @media (max-width: 839px) {
   #welcome-section {
+    padding-top: 20px;
     grid-template-columns: 1fr;
   }
   .contact-me {
     display: none;
+  }
+  .loop-text {
+    margin: 0 2px;
+    padding: 0;
+  }
+  .logos-flex-container {
+    width: 80%;
   }
   .me {
     text-align: center;
@@ -303,10 +360,10 @@ footer {
 }
 
 @media (max-width: 375px) {
-  h1, .me div {
-    font-size: 2rem;
+  .logos-flex-container {
+    width: 95%;
   }
-  .me div span {
+  h1, .me div, .me div span, .loop-text, .j-letter {
     font-size: 2rem;
   }
   .project {

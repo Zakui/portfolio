@@ -3,13 +3,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Section } from "react-scroll-section";
-import styled from "styled-components";
 import Project from '../utils/project'
 import Tooltip from '../utils/tooltip'
-
-const Titre = styled.h2`
-    text-align: center;
-`
 
 const Work = ({data}) => {
     const dataImages = useStaticQuery(graphql`
@@ -28,14 +23,14 @@ const Work = ({data}) => {
     `)
     return (
         <Section id="projects-container">
-            <Titre>Work</Titre>
+            <h2 className="text-title">Works</h2>
             <p className="details-work"> Over four years, I’ve had the pleasure to work with these really great 
                 people and companies on some really amazing projects.
             </p>
-            <ul class="logos-flex-container">
+            <ul className="logos-flex-container">
                 {
                     dataImages.allImageSharp.edges.map(img_elem=>(
-                        <li class="logos-flex-item">
+                        <li className="logos-flex-item" key={img_elem.originalName}>
                             <Tooltip text={`${img_elem.node.fluid.originalName.split('.')[0]}`}>
                                 <span>
                                     <Img fluid={img_elem.node.fluid} />
