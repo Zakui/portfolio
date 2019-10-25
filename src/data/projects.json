@@ -27,7 +27,7 @@
         "github": "https://github.com/Zakui/portfolio",
         "site": "https://julesthea.com",
         "entreprise": "Personnel",
-        "comments": "This site is my personal portfolio page that is under construction"
+        "comments": "This site is my personal portfolio page that is under construction. Build with Gatsby and it is Deployed to Netlify"
     },
     {
         "id": 4,
