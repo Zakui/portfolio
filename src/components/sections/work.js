@@ -23,7 +23,7 @@ const Work = ({data}) => {
     `)
     return (
         <Section id="projects-container">
-            <h2 className="text-title">Work</h2>
+            <h2 className="text-title">Works</h2>
             <p className="details-work"> Over four years, I’ve had the pleasure to work with these really great 
                 people and companies on some really amazing projects.
             </p>
