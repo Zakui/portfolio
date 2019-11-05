@@ -21,7 +21,7 @@ const Welcome = ({title}) => (
         </div>
         <div className="speak">
             <h2>I Speak</h2>
-            <p>French, English, Javascript (NodeJS, React, Angular, a bit of VueJS,...), JAVA, PHP(WordPress, Drupal, Laravel,...), Python (Django), Ruby (Ruby on Rails), Somes Data Collection with KoBoToolbox, Mapping with QGIS,...</p>
+            <p>French, English, Javascript (NodeJS, React, Angular, a bit of VueJS,...), JAVA, PHP(WordPress, Drupal, Laravel,...), Python (Django), Ruby (Ruby on Rails), Somes Data Collection with KoBoToolbox, Mapping with QGIS, SAP, AWS, Jira,...</p>
         </div>
     </Section>
 )
